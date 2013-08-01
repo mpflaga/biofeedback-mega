@@ -1,0 +1,20 @@
+###################################################################
+biofeedback_2560_3V.name=BioFeedBack 2560 3.3V
+
+biofeedback_2560_3V.upload.protocol=stk500v2
+biofeedback_2560_3V.upload.maximum_size=258048
+biofeedback_2560_3V.upload.maximum_ram_size=8192
+biofeedback_2560_3V.upload.speed=57600
+
+biofeedback_2560_3V.bootloader.low_fuses=0xE2
+biofeedback_2560_3V.bootloader.high_fuses=0xD4
+biofeedback_2560_3V.bootloader.extended_fuses=0xFD
+biofeedback_2560_3V.bootloader.path=mega-pro-3.3V:
+biofeedback_2560_3V.bootloader.file=MegaPro3.3V-8MHz-57600.hex
+biofeedback_2560_3V.bootloader.lock_bits=0xCF	
+
+biofeedback_2560_3V.build.mcu=atmega2560
+biofeedback_2560_3V.build.f_cpu=8000000L
+biofeedback_2560_3V.build.core=arduino:arduino
+biofeedback_2560_3V.build.variant=mega
+###################################################################
